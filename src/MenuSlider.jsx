@@ -5,7 +5,7 @@ export function MenuSlider ({foods}) {
             <div className='menu-nav--slider'>
                 {
                     foods.map(({urlFood,message}) =>(
-                        <a href={`#${urlFood}`}>{message}</a>
+                        <a key={urlFood} href={`#${urlFood}`}>{message}</a>
                     ))
                 }
             </div>

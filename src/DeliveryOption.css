@@ -1,0 +1,12 @@
+.delivery-option--delivery {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 18px;
+    max-width: 385px;
+    order: 3;
+    margin: 15px 0 0 0;
+}
+.delivery-option--noView{
+    display: none;
+}

@@ -1,0 +1,15 @@
+.delivery-option--delivery > input {
+    font-size: 1.8rem;
+    height: 40px;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+}
+
+.delivery-option--delivery > input[type='submit'] {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #f04523;
+    cursor: pointer;
+}
