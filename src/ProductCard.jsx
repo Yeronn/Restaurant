@@ -1,4 +1,6 @@
+import './ProductCard.css';
 import {Button} from "./Button";
+
 export function ProductCard({img, name, description, value}){
     return(
         <article className="productCard">

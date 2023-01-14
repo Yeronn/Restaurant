@@ -1,0 +1,26 @@
+.slider{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #e9e6df;
+}
+.menu-nav--slider {
+    display: flex;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    align-items: center;
+    max-width: 600px;
+}
+
+.menu-nav--slider > a{
+    /*position: relative;*/
+    scroll-snap-align: center;
+    margin: 10px 20px 10px 0;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+    white-space: nowrap;
+}
