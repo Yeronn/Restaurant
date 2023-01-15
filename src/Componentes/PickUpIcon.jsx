@@ -1,5 +1,5 @@
 import * as React from "react"
-
+/*Componente que crea el icono de ubicaacion */
 export function PickUpIcon(props) {
     return (
         <svg

@@ -2,6 +2,7 @@ import { Button } from "./Button"
 import { Input } from "./Input"
 import './DeliveryOption.css'
 
+/*Componente que crea el formulaario para rellenar datos de entrega*/
 export function DeliveryOption({deliveryOption, mapPinButton, mapMessageButton,idData,addressList}){
     return(
         <article className={`${deliveryOption}`}>

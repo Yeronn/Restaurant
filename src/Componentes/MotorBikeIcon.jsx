@@ -1,5 +1,5 @@
 import * as React from "react"
-
+/*Componente que crea un icono de una moto */
 export function MotorBikeIcon(props){
     return(
     <svg

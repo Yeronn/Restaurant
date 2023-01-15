@@ -1,5 +1,5 @@
 import * as React from "react"
-
+/*Componente que contiene un icono de mapa */
 export function MapPinIcon(props) {
     return (
         <svg

@@ -1,6 +1,7 @@
 import './ProductCard.css';
 import {Button} from "./Button";
 
+/*Componente que crea las cartas de cada opcion de comida (imagen,texto, valor y boton) */
 export function ProductCard({img, name, description, value}){
     return(
         <article className="productCard">
